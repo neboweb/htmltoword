@@ -42,7 +42,7 @@
         <xsl:otherwise>
           <xsl:choose>
             <xsl:when test="$tag_name = 'ol'">decimal</xsl:when>
-            <xsl:otherwise>bullet,●</xsl:otherwise>
+            <xsl:otherwise>bullet,</xsl:otherwise>
           </xsl:choose>
         </xsl:otherwise>
       </xsl:choose>
